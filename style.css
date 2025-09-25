@@ -27,7 +27,7 @@ nav {
   border-bottom: 0.12rem dashed #9e14b0;
 }
 nav a {
-  font-family: "Tiny5";
+  font-family: "Tiny5", monospace;
   text-decoration: none;
   color: #9e14b0;
   transition: scale 0.2s ease, font-weight 0s ease;
@@ -42,7 +42,7 @@ nav a:hover {
   text-align: center;
 }
 .sass-intro h1 {
-  font-family: "Tiny5";
+  font-family: "Tiny5", monospace;
   font-size: 2rem;
   font-weight: 600;
   letter-spacing: 1.2;
@@ -58,7 +58,7 @@ nav a:hover {
   margin-bottom: 4rem;
 }
 .sass-description h2 {
-  font-family: "Tiny5";
+  font-family: "Tiny5", monospace;
   font-size: 1.4rem;
   color: #9e14b0;
   margin: 1.8rem 0 0.3rem 0;
