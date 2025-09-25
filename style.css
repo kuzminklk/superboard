@@ -10,7 +10,8 @@ body {
   align-items: center;
   flex-direction: column;
   margin: 0 1rem;
-  background: linear-gradient(180deg, rgb(255, 255, 250) 0%, rgb(255, 255, 250) 7.692%, rgb(255, 255, 240) 7.692%, rgb(255, 255, 240) 15.385%, rgb(255, 245, 230) 15.385%, rgb(255, 245, 230) 23.077%, rgb(251, 235, 220) 23.077%, rgb(251, 235, 220) 30.769%, rgb(245, 225, 211) 30.769%, rgb(245, 225, 211) 38.462%, rgb(238, 215, 202) 38.462%, rgb(238, 215, 202) 46.154%, rgb(232, 206, 194) 46.154%, rgb(232, 206, 194) 53.846%, rgb(226, 198, 186) 53.846%, rgb(226, 198, 186) 61.538%, rgb(220, 189, 179) 61.538%, rgb(220, 189, 179) 69.231%, rgb(214, 181, 172) 69.231%, rgb(214, 181, 172) 76.923%, rgb(208, 174, 166) 76.923%, rgb(208, 174, 166) 84.615%, rgb(202, 168, 162) 84.615%, rgb(202, 168, 162) 92.308%, rgb(197, 162, 157) 92.308% 100%);
+  /* https://grabient.com/HQNgnAHANMCsCMAGK9iMQdhgZjM42G0BYWw8sx8IsMS2UALMAEy5Os0cuNgywYQKcr2HoyiNkA?style=linearSwatches&steps=13&angle=180 */
+  background: linear-gradient(180deg, rgb(255, 251, 255) 0%, rgb(255, 251, 255) 7.692%, rgb(255, 241, 255) 7.692%, rgb(255, 241, 255) 15.385%, rgb(255, 233, 255) 15.385%, rgb(255, 233, 255) 23.077%, rgb(255, 224, 255) 23.077%, rgb(255, 224, 255) 30.769%, rgb(255, 216, 255) 30.769%, rgb(255, 216, 255) 38.462%, rgb(255, 208, 255) 38.462%, rgb(255, 208, 255) 46.154%, rgb(255, 201, 255) 46.154%, rgb(255, 201, 255) 53.846%, rgb(255, 194, 255) 53.846%, rgb(255, 194, 255) 61.538%, rgb(248, 188, 255) 61.538%, rgb(248, 188, 255) 69.231%, rgb(241, 182, 255) 69.231%, rgb(241, 182, 255) 76.923%, rgb(235, 178, 255) 76.923%, rgb(235, 178, 255) 84.615%, rgb(229, 174, 255) 84.615%, rgb(229, 174, 255) 92.308%, rgb(224, 171, 255) 92.308% 100%);
 }
 
 nav {
@@ -23,12 +24,12 @@ nav {
   gap: 0.6rem;
   height: 2.6rem;
   width: 100%;
-  border-bottom: 0.12rem dashed #b02414;
+  border-bottom: 0.12rem dashed #9e14b0;
 }
 nav a {
   font-family: "Tiny5";
   text-decoration: none;
-  color: #b02414;
+  color: #9e14b0;
   transition: scale 0.2s ease, font-weight 0s ease;
 }
 nav a:hover {
@@ -45,7 +46,7 @@ nav a:hover {
   font-size: 2rem;
   font-weight: 600;
   letter-spacing: 1.2;
-  color: #d81600;
+  color: #7a00d8;
   text-shadow: 0.1rem 0.1rem #000000;
 }
 
@@ -59,7 +60,7 @@ nav a:hover {
 .sass-description h2 {
   font-family: "Tiny5";
   font-size: 1.4rem;
-  color: #b02414;
+  color: #9e14b0;
   margin: 1.8rem 0 0.3rem 0;
 }
 .sass-description p {
